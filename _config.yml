@@ -1,0 +1,34 @@
+url: https://diogomes.github.io/
+
+# Site settings
+title: "Diogo Gomes"
+email: gomes.d.n05@gmail.com
+description: "Explorando Aprendizado de Máquina"
+
+
+# Team names, titles and social links
+people:
+- name: Diogo
+  pic: 1
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: http://linkedin.com/in/
+  - title: github
+    url: https://github.com/diogomes
+  - title: facebook 
+    url: https://www.facebook.com/Diogo.n.gomes
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+highlighter: rouge
