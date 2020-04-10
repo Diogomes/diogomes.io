@@ -8,7 +8,7 @@ description: "Explorando Aprendizado de Máquina"
 
 # Team names, titles and social links
 people:
-- name: Diogo
+- name: Diogo Gomes
   pic: 1
   social:
     - title: twitter
@@ -21,7 +21,7 @@ people:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: linkedin
-    url: http://linkedin.com/in/
+    url: https://www.linkedin.com/in/diogo-gomes-00068133/
   - title: github
     url: https://github.com/diogomes
   - title: facebook 
