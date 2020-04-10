@@ -1,0 +1,27 @@
+<!-- Aulas Grid Section -->
+<section id="Aulas" class="bg-light-gray">
+    <div class="container">
+        <div class="row equal">
+        {% for post in site.posts %}
+            {% if post.tags contains 'Post' %}
+            <div class="col-md-4 col-sm-6 Aulas-item">
+                <a href="#AulasModal{{ post.modal-id }}" class="Aulas-link" data-toggle="modal">
+                    <div class="Aulas-hover">
+                        <div class="Aulas-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                </a>
+                <div class="Aulas-caption">
+                    <a href="{{ post.url | prepend: site.baseurl }}">
+                    <h4>{{ post.title }}</h4></a>
+                    <p class="text-muted">{{ post.subtitle }}</p>
+
+                </div>
+            </div>
+            {% endif %}
+        {% endfor %}
+        </div>
+    </div>
+</section>
