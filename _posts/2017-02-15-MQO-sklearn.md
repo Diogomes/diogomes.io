@@ -6,8 +6,8 @@ subtitle: "Aprenda como aplicar esse poderoso modelo estatístico com menos de 1
 date: 2017-07-19
 true-dt: 2017-07-19
 tags: [Tutorial-alt]
-author: "Matheus Facure"
-header-img: "img/dark-ann.jpg"
+author: "iogo Gomes"
+header-img: "/img/data-science.jpg"
 ---
 
 <div class="row">
